@@ -25,15 +25,18 @@ This tool highlights **reasoning gaps**, not vulnerabilities.
 ```bash
 pip install -r requirements.txt
 python app.py
+```
 
 You will be prompted to provide:
 An OpenAPI specification
 Your own OpenAI API key
 The key is used locally and is never stored.
-#Intended Audience
+
+## Intended Audience
     Security engineers
     Red teamers
     API developers
     Security reviewers
-#Design Philosophy
+
+## Design Philosophy
 Trust boundaries fail due to **assumption drift**, not missing tools. This project formalizes that reasoning.
